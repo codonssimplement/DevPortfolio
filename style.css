@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    background-color: #f5f5f5;
+    color: #2f2f2f;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-area img {
+    height: 50px;
+}
+
+.navigation .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation .nav-list li {
+    margin-left: 20px;
+}
+
+.navigation .nav-list a {
+    color: #2f2f2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation .nav-list a:hover {
+    text-decoration: underline;
+}
+
+.intro-section {
+    background: #dadcf5;
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-content h1 {
+    font-family: Gotu;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 106.24px;
+    color: #333;
+}
+
+.subheading {
+    margin-top: 20px;
+}
+
+.intro-content span {
+    font-family: Gotu;
+    font-size: 40px;
+    color: #555;
+}
+
+.btn-contact {
+    width: 387px;
+    height: 120px;
+    border-radius: 140px;
+    font-family: Gothic A1;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #024089;
+    border: 1px solid #024089;
+    background: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #a2d5ec;
+    color: white;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: right;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-download {
+    background: none;
+    border: 2px solid #333;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-download:hover {
+    background-color: #333;
+    color: white;
+}
+
+.portfolio-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.portfolio-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio-categories {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.portfolio-categories span {
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.portfolio-categories span:hover {
+    text-decoration: underline;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-description {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.portfolio-description h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.portfolio-description p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-see-more {
+    background: none;
+    border: 2px solid #333;
+    color: #333;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-see-more:hover {
+    background: #024089;
+    color: white;
+}
+
+.portfolio-images {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.portfolio-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-section {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.vertical-separator {
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+    margin: 20px auto;
+}
